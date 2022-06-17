@@ -37,7 +37,7 @@ sheet.format('A1:F1', {'textFormat':{'italic':True}})
 
 # Initial driver
 
-driverPath = 'C:\\Users\Trinh Anh\Documents\Python\Driver\msedgedriver.exe'
+driverPath = '.\msedgedriver.exe'
 s = Service(driverPath)
 driver = webdriver.Edge(service=s)
 driver.maximize_window()
